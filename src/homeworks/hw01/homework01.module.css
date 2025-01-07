@@ -1,0 +1,48 @@
+*{
+  margin: 0;  
+  padding: 0;
+}
+
+body{
+    background-color: rgb(207, 236, 104);
+    background:
+        radial-gradient(at 50% 0%, #69b0d6, 20%, transparent 40%),
+        linear-gradient(#bee2f8, 50%, #2e4c6b);
+}
+h1{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2c21a9;
+}
+.Homework01{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.h1_hello{
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 5px solid   rgb(194, 127, 194);
+    border-radius: 20px;
+    box-shadow: 0em 2em 10em 0em #ccb6d9;
+    background-color: #9bbfdf;
+}
+p{
+    text-align: center;
+    border: 5px;
+    margin: 5px;
+    color: #9c33d9;
+}
+img {
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: rgb(157, 136, 185);
+    
+}
+
