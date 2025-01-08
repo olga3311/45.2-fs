@@ -5,9 +5,9 @@
 
 body{
     background-color: rgb(250, 251, 245);
-    background:
+    /* background:
         radial-gradient(at 50% 0%, #69b0d6, 20%, transparent 40%),
-        linear-gradient(#bee2f8, 50%, #2e4c6b);
+        linear-gradient(#bee2f8, 50%, #2e4c6b); */
 }
 h1{
     font-size: xx-large;

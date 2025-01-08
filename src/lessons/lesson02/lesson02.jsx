@@ -1,6 +1,5 @@
 import MyButton from "../../components/myButton/MyButton";
 
-
 function Lesson02() {
     const element = <h4>Это JSX элемент из переменной element!</h4>;
     const text = "Это строка пришла из переменной text...";
@@ -40,11 +39,17 @@ function Lesson02() {
         {/* <p>React developer: {react.developer}</p> */}
         {/* пример вызова функции в JSX */}
         <p>{showDeveloper(react)}</p>
+
         <h4>Пример тернарного оператора в React:</h4>
         <p>
           Пользователь <b>{isLoggedIn ? "в данный момент" : "не"}</b> авторизирован!
         </p>
-        <p></p>
+        
+        <h4>Пример переиспользования компонентов:</h4>
+      <MyButton/>
+      <MyButton/>
+      <MyButton/>
+
       </div>
     );
   }
