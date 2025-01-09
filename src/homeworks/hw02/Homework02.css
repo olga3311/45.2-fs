@@ -17,8 +17,9 @@
 
 /* Стиль для карточки кота */
 .cat-card {
-    background-color: #fff;
+    background-color: #fafbf4;
     padding: 15px;
+    margin: 30px;
     border-radius: 8px;
     border: 1px solid #ddd;
     display: flex;

@@ -63,13 +63,13 @@ function Homework02() {
     <div className="homework-container">
       <h1>Cats</h1>
 
-      <p> {showCat(redCat)}</p>
+       {showCat(redCat)}
       <br />
       <br />
-      <p> {showCat(blackCat)}</p>
+      {showCat(blackCat)}
       <br />
       <br />
-      <p> {showCat(whiteCat)}</p>
+       {showCat(whiteCat)}
     </div>
   );
 }
