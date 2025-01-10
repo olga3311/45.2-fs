@@ -60,16 +60,20 @@ function Homework02() {
   }
 
   return (
-    <div className="homework-container">
-      <h1>Cats</h1>
+    <div>
+      <h1 className="cat">Homework02</h1>
 
-       {showCat(redCat)}
-      <br />
-      <br />
-      {showCat(blackCat)}
-      <br />
-      <br />
-       {showCat(whiteCat)}
+      <div className="homework-container">
+        <h1>Cats</h1>
+
+        {showCat(redCat)}
+        <br />
+        <br />
+        {showCat(blackCat)}
+        <br />
+        <br />
+        {showCat(whiteCat)}
+      </div>
     </div>
   );
 }

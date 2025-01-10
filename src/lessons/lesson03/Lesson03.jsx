@@ -1,7 +1,7 @@
 import MyButton from "../../components/myButton/MyButton";
 import UserCard from "../../components/userCard/UserCard";
 
-function Lesson03(props) {
+function Lesson03() {
   return (
     <div>
       <h2>React Props children 👨‍👩‍👦 </h2>
@@ -10,9 +10,9 @@ function Lesson03(props) {
 
 
 {/* <MyButton/> */}
-<UserCard name={'Bilbo Baggins'} age={45}/>
-<UserCard name={'Gendalf White'} age={2000}/>
-<UserCard name={'Gimli'} age={90}/>
+<UserCard name={'Bilbo Baggins'} age={45} lastname={'Baggins'}/>
+<UserCard name={'Gendalf White'} age={2000} lastname={'White'}/>
+<UserCard name={'Gimli'} age={90} lastname={'Dwarfson'}/>
     </div>
   )
 }

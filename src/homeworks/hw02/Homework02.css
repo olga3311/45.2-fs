@@ -1,45 +1,45 @@
 /* Общие стили для компонента */
 .homework-container {
     font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #8b58c6;
+    padding: 10px 20px 30px 20px;
+    background-color: #b062f0;
     border-radius: 20px;
-    max-width: 600px;
-    margin: 30px auto;
-    box-shadow: 0 4px 8px rgba(151, 96, 96, 0.1);
+    max-width: 400px;
+  
+    box-shadow: 0 4px 8px rgba(29, 10, 124, 0.1);
   }
   
   .homework-container h1 {
     text-align: center;
     color: #120505;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
-/* Стиль для карточки кота */
 .cat-card {
-    background-color: #fafbf4;
+    background-color: #faad5a;
     padding: 15px;
-    margin: 30px;
+    margin: 0px 30px 0px 30px;
     border-radius: 8px;
     border: 1px solid #ddd;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(98, 90, 90, 0.1);
   }
   
   .cat-card img {
+    background-color: #ddd;
     max-width: 100%;
     height: auto;
     border-radius: 20px;
     margin-bottom: 15px;
-    border: 2px solid #ddd;
+    border: 1px solid #d08bd7;
   }
   
   .cat-card p {
     margin: 5px 0;
     font-size: 16px;
-    color: #555;
+    color: #4a136e;
   }
   
   .cat-card p span {
@@ -57,3 +57,9 @@
     border-radius: 5px;
     border: 1px solid #ff6b6b;
   }
+  .cat{
+    margin-top: 20px;
+    margin-bottom: 3px;
+    color:#120505;
+  }
+  
