@@ -10,8 +10,8 @@ function Lesson03() {
 
 
 {/* <MyButton/> */}
-<UserCard name={'Bilbo Baggins'} age={45} lastname={'Baggins'}/>
-<UserCard name={'Gendalf White'} age={2000} lastname={'White'}/>
+<UserCard name={'Bilbo '} age={45} lastname={'Baggins'}/>
+<UserCard name={'Gendalf'} age={2000} lastname={'White'}/>
 <UserCard name={'Gimli'} age={90} lastname={'Dwarfson'}/>
     </div>
   )

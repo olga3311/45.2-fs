@@ -1,17 +1,16 @@
 import React from "react";
 import MyInput from "../myInput/MyInput";
 import MyButton from "../myButton/MyButton";
-import "./LoginForm.css"; // Подключаем стили
+import "./LoginForm.css";
 
 function LoginForm() {
     
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = () => {
     alert("Form submitted!");
   };
 
   return (
-    <form className="login-form" onSubmit={handleSubmit}>
+    <form className="login-form">
       <h2>Login Form</h2>
       <MyInput
         name="login"
@@ -31,7 +30,7 @@ function LoginForm() {
         placeholder="Enter your password"
         label="Password"
       />
-      <MyButton className="button" type="submit" text="Submit💥"></MyButton>
+      <MyButton className="button" type="submit" func={handleSubmit} text="Submit💥"/>
     </form>
   );
 }

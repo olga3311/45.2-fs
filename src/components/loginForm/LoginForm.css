@@ -1,19 +1,18 @@
 form {
   border: 5px solid;
-  border-color: aliceblue;
-  background-color: #f5a4e9;
+  border-color: rgb(33, 110, 177);
+  background-color: #dbf183;
   margin: 10px;
   padding: 10px;
 }
 
 login-form {
-  background-color: yellowgreen;
   max-width: 400px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #b52b2b;
+  background-color: #821d1d;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 80 4px 8px rgba(17, 0, 0, 0.1);
 }
 
 .login-form h2 {
@@ -23,7 +22,6 @@ login-form {
 }
 
 .login-form button {
-  margin: 0px;
   box-sizing: border-box;
   background-color: #856fc5;
   display: block;
