@@ -1,0 +1,64 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e9bbf6;
+  border: 5px solid #a12eac;
+  border-radius: 8px;
+  max-width: 600px;
+
+}
+h1{
+color: #333;
+}
+
+.feedback-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 20px; 
+  margin-top: 0px;
+  width: 100%; 
+}
+
+.like,
+.reset,
+.dislike {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  gap: 10px; 
+  border: solid 2px black;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.likes-count,
+.dislikes-count {
+  font-size: 20px;
+  color: #333;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: rgb(181, 245, 254);
+
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3173ba;
+}
+
+button:active {
+  background-color: #003f7f;
+}
+
+
+

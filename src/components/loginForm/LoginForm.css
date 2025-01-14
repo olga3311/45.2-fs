@@ -1,6 +1,7 @@
 form {
   border: 5px solid;
   border-color: rgb(33, 110, 177);
+  border-radius: 8px;
   background-color: #dbf183;
   margin: 10px;
   padding: 10px;

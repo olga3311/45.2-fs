@@ -2,6 +2,7 @@
 
 // импорт  css
 import "./App.css";
+import Homework04 from "./homeworks/hw04/Homework04";
 //import Lesson04 from "./lessons/lesson04/lesson04";
 //import Homework02 from "./homeworks/hw02/Homework02";
 //import Homework01 from "./homeworks/hw01/Homework01";
@@ -19,7 +20,8 @@ function App() {
       {/* <Lesson03/> */}
       {/* <Homework02/> */}
       {/* <Lesson04/> */}
-       <Homework03/> 
+      <Homework03/> 
+      <Homework04 />
     </>
   );
 }
