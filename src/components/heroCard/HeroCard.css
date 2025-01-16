@@ -1,0 +1,52 @@
+.heroCard {
+  /* display: grid; */
+  display: flex;
+  flex-direction: column;
+  border: 3px solid lightblue;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 25px;
+  text-align: center;
+  /* text-decoration-line:underline; */
+  color: rgb(69, 49, 49);
+}
+
+.heroCard.hero {
+  background-color: #98ee9a;
+}
+
+.heroCard.villian {
+  background-color: #e7928c;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #383030;
+    margin: 0;
+    padding: 20px;
+  }
+  
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+p {
+  display: grid;
+  text-align: center;
+}
+
+.h2 {
+  display: flex;
+  flex-direction: column;
+position: relative;
+}
