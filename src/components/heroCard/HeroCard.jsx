@@ -13,7 +13,7 @@ function HeroCard({ name, isDark, age, weapons, image}) {
               <img
                 src={image}
                 width="100%"
-                height="250px"
+                height="200px"
                 alt={image}
               />
             </p>
