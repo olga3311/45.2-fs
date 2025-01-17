@@ -3,20 +3,21 @@ function HeroCard({ name, isDark, age, weapons, image}) {
     return (
       <div className={`heroCard ${isDark ? "villian" : "hero"}`}>
           <p>Hero: {name}</p>
-            <br />
-            <p>{isDark ? "Villian 🔥" : "Hero ✨"}</p>
-            <br />
-            <p>{age} years old</p>
-            <br />
-            <p> {weapons.join() != '' ? "Weapons: " + weapons.join(', ') : "" }</p>
-            <p>
-              <img
+             <img
                 src={image}
-                width="100%"
-                height="200px"
+               
+                height={200}
                 alt={image}
               />
-            </p>
+            <p>{isDark ? "Villian 🔥" : "Hero ✨"}</p>
+            <p>{age} years old</p>
+            <p> {weapons.join() != '' ? "Weapons: " + weapons.join(', ') : "" }</p>
+            {/* { hero.weapons[0] ? 
+             <p> {hero.weapons.map(el => " " +el )}</p>
+            ) : <p>No weapons</p>
+            } */}
+            
+            
       </div>
     );
   }
